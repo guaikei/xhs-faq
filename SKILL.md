@@ -6,6 +6,11 @@ name: xhs-faq
 description: "小红薯公开数据评论问答库（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.3
+display_name: "小红薯评论问答库｜笔记提问·FAQ整理·客服话术·知识库沉淀"
+display_name_en: "Xiaohongshu Faq"
+description_zh: "小红薯（小红书）公开数据只读问答库技能：关键词搜笔记（综合/最多点赞/最新排序，内容类型与发布时间筛选）、笔记详情、评论抓取（可按近 N 天过滤）、博主作品列表与粉丝/获赞/收藏互动数据，全部以结构化 JSON 输出；从评论区归集高频提问与解答，沉淀为 FAQ 问答对与客服话术知识库，可导入 Excel / BI 做问答运营与周报。出参覆盖标题、作者、点赞/评论/收藏/分享、标签、链接。包月搜索/作品/评论分别最多 40/30/20 条，按量单次最多 10000 条。零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘。"
+description_en: "Xiaohongshu (Rednote) comment Q&A library skill (read-only public data): keyword search for notes with sorting (relevance / most liked / newest), content-type and time filters, note detail, comment fetching (filterable by last N days), creator post lists with follower, liked and collected stats. Collects frequent questions and answers from comment sections and turns them into FAQ pairs and customer-service playbook knowledge bases for Excel / BI import and weekly reporting. Output covers title, author, likes, comments, collects, shares, tags and links as structured JSON. Monthly plan: up to 40 searches, 30 post pulls and 20 comment pulls; pay-as-you-go up to 10,000 records per call. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 category: 数据分析
 homepage: https://www.guaikei.com
 metadata:
